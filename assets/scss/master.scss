@@ -1,0 +1,21 @@
+// compileCompressed: ../css/$1.min.$2.css
+@import url('https://fonts.googleapis.com/css?family=Roboto|Lora|Karla|Open+Sans');
+$default-font: Roboto, Open Sans, Lora, Karla, sans-serif;
+
+body, html {
+  font-size: 50px;
+  font-family: $default-font;
+  background-color: #55c7d2;
+  display: grid;
+  height: 100%;
+}
+
+.container {
+  background-color: #ffffff;
+  margin: auto;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  border-radius: 25px;
+  border-top-left-radius: 0;
+}

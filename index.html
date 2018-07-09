@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Typed.js Playground</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="./assets/js/typed.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="assets/css/master.min.scss.css">
+</head>
+
+<body>
+
+  <div id="typed-strings">
+    <p>my <b>name</b> is </p>
+    <p>my <b>name</b> is Khanhthy.</p>
+    <p>my <b>name</b> is Brenda.</p>
+    <p>my <b>name</b> is Tommy.</p>
+    <p>my <b>name</b> is Katie.</p>
+    <p>my <b>name</b> is Hoang-Nam.</p>
+  </div>
+
+  <div class="container">
+    <span>Hello, </span>
+    <span id="typed" class=""></span>
+  </div>
+
+  <script type="text/javascript">
+    var typed = new Typed('#typed', {
+      stringsElement: '#typed-strings',
+      backSpeed: 20,
+      typeSpeed: 20,
+      smartBackspace: true
+    });
+  </script>
+</body>
